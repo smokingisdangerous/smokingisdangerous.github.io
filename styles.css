@@ -92,6 +92,12 @@ nav ul li a {
     color: #ff5722;
 }
 
+.content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #1976d2;
+}
+
 .chemical-list, .treatment-list {
     list-style-type: none;
     margin: 20px 0;
@@ -104,6 +110,69 @@ nav ul li a {
 
 .chemical-list li strong {
     color: #e64a19;
+}
+
+.survey-section {
+    margin-bottom: 30px;
+}
+
+.survey-section h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #1976d2;
+}
+
+.survey-results {
+    list-style-type: none;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.survey-results li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.survey-results li ul {
+    margin-top: 5px;
+}
+
+.survey-results li ul li {
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.survey-results p {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.economic-impact, .benefits, .references {
+    list-style-type: none;
+    padding: 0;
+}
+
+.economic-impact li, .benefits li, .references li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.economic-impact li::before {
+    content: '•';
+    color: #ff5722;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.benefits li::before {
+    content: '•';
+    color: #1976d2;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
 }
 
 footer {
