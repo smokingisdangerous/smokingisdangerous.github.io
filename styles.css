@@ -157,22 +157,34 @@ nav ul li a {
     font-size: 18px;
 }
 
-.economic-impact li::before {
-    content: '•';
-    color: #ff5722;
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
+.economic-impact li ul, .benefits li ul, .references li ul {
+    margin-top: 5px;
 }
 
-.benefits li::before {
-    content: '•';
-    color: #1976d2;
+.economic-impact li ul li, .benefits li ul li, .references li ul li {
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.highlight {
+    color: #ff5722;
     font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
+}
+
+.equation {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 0;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.adjustments li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    list-style-type: none;
 }
 
 footer {
